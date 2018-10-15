@@ -1,5 +1,5 @@
 html {
-  font-family: "Fredoka One", cursive;
+  font-family: "Fredoka One", sans-serif;
   background: repeating-linear-gradient(-40deg, #c9fcff, #c9fcff 10px, #b3fbff 20px);
   background-size: cover;
   border-top: #b3fbff;
@@ -152,11 +152,17 @@ a {
 @keyframes content {
 
   0% {
-    opacity: 0%;
+    opacity: 0;
     filter: blur(30px)
   }
 
   100% {
-    opacity: 100%;
+    opacity: 100;
+    text-shawod
   }
+}
+
+.btn-ghost:hover {
+  background-color: #d4fdff;
+
 }
