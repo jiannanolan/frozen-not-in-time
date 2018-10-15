@@ -1,0 +1,89 @@
+html {
+  font-family: "Fredoka One", cursive;
+  background: repeating-linear-gradient(-40deg, #c9fcff, #c9fcff 10px, #b3fbff 20px);
+  background-size: cover;
+  border-top: #b3fbff;
+  border-top-style: solid;
+  border-top-width: 10px;
+  min-height: 517px;
+  border-bottom-color: #b3fbff;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+}
+
+h1 {
+  color: #990073;
+  transform: rotate(-8deg) translateY(117px) scale(1.25);
+  transform-origin: left center;
+}
+
+p {
+  color: #c09;
+  transform: rotate(-4deg) translate(11px, 95px);
+  max-width: 19em;
+}
+
+a {
+  transform: translate(22px,100px);
+}
+
+.btn {
+  color: #c09;
+}
+
+.btn-ghost {
+  border-color: #c09;
+}
+
+.ice-cream {
+  transform: scale(.7);
+}
+.cone {
+  position: absolute;
+  bottom: 100%;
+  left: -40px;
+
+  animation: cone-animate 1s forwards;
+}
+
+.cherry {
+  position:absolute;
+  top: -160px;
+  left: -40px;
+  z-index: 4;
+
+}
+
+.vanilla-fudge {
+  position:absolute;
+  top: -50px;
+  left: -40px;
+  z-index: 3;
+
+}
+
+.chocolate-chip {
+  position:absolute;
+  top: 54px;
+  left: -35px;
+  z-index: 2;
+}
+
+
+.mint-chip {
+  position:absolute;
+  top: 175px;
+  left: -40px;
+}
+
+@keyframes cone-animate {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: -600px;
+  }
+
+}
