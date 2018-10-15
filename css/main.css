@@ -24,7 +24,7 @@ p {
 }
 
 a {
-  transform: translate(22px,100px);
+  transform: translate(22px, 100px);
 }
 
 .btn {
@@ -38,6 +38,7 @@ a {
 .ice-cream {
   transform: scale(.7);
 }
+
 .cone {
   position: absolute;
   bottom: 100%;
@@ -47,39 +48,35 @@ a {
 }
 
 .cherry {
-  position:absolute;
+  position: absolute;
   left: -40px;
   z-index: 4;
 
   animation: cherry 1s forwards;
-
 }
 
 .vanilla-fudge {
-  position:absolute;
+  position: absolute;
   left: -40px;
   z-index: 3;
 
   animation: vanilla-fudge 1s forwards;
-
 }
 
 .chocolate-chip {
-  position:absolute;
+  position: absolute;
   left: -40px;
   z-index: 2;
 
   animation: chocolate-chip 1s forwards;
 }
 
-
 .mint-chip {
-  position:absolute;
+  position: absolute;
   left: -50px;
 
   animation: mint-chip 1s forwards;
 }
-
 
 @keyframes cone-animate {
 
@@ -129,7 +126,6 @@ a {
 
 }
 
-
 @keyframes vanilla-fudge {
 
   0% {
@@ -143,26 +139,25 @@ a {
 }
 
 .content {
-  position:absolute;
+  position: absolute;
 
   animation: content 1s forwards;
 }
-
 
 @keyframes content {
 
   0% {
     opacity: 0;
-    filter: blur(30px)
+    filter: blur(30px);
   }
 
   100% {
     opacity: 100;
-    text-shawod
+    text-shadow: 2px 2px #000;
   }
+
 }
 
 .btn-ghost:hover {
   background-color: #d4fdff;
-
 }
