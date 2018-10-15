@@ -41,40 +41,45 @@ a {
 .cone {
   position: absolute;
   bottom: 100%;
-  left: -40px;
+  left: -50px;
 
   animation: cone-animate 1s forwards;
 }
 
 .cherry {
   position:absolute;
-  top: -160px;
   left: -40px;
   z-index: 4;
+
+  animation: cherry 1s forwards;
 
 }
 
 .vanilla-fudge {
   position:absolute;
-  top: -50px;
   left: -40px;
   z-index: 3;
+
+  animation: vanilla-fudge 1s forwards;
 
 }
 
 .chocolate-chip {
   position:absolute;
-  top: 54px;
-  left: -35px;
+  left: -40px;
   z-index: 2;
+
+  animation: chocolate-chip 1s forwards;
 }
 
 
 .mint-chip {
   position:absolute;
-  top: 175px;
-  left: -40px;
+  left: -50px;
+
+  animation: mint-chip 1s forwards;
 }
+
 
 @keyframes cone-animate {
 
@@ -83,7 +88,75 @@ a {
   }
 
   100% {
-    bottom: -600px;
+    bottom: -620px;
   }
 
+}
+
+@keyframes cherry {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: -200px;
+  }
+
+}
+
+@keyframes mint-chip {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: -450px;
+  }
+
+}
+
+@keyframes chocolate-chip {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: -350px;
+  }
+
+}
+
+
+@keyframes vanilla-fudge {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: -250px;
+  }
+
+}
+
+.content {
+  position:absolute;
+
+  animation: content 1s forwards;
+}
+
+
+@keyframes content {
+
+  0% {
+    opacity: 0%;
+    filter: blur(30px)
+  }
+
+  100% {
+    opacity: 100%;
+  }
 }
